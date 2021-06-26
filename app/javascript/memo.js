@@ -20,7 +20,7 @@ function post (){
     const form = document.getElementById("form");
     // console.log(form)
     const formData = new FormData(form);
-     console.log(formData)
+     //console.log(formData)
     const XHR = new XMLHttpRequest();
     XHR.open("POST", "/posts", true);
     XHR.responseType = "json";
@@ -32,7 +32,7 @@ function post (){
       };
 
       const list = document.getElementById("list");
-      // console.log(list)
+      //console.log(list)
       const formText = document.getElementById("content");
       // console.log(formText)
       // console.log(post)
